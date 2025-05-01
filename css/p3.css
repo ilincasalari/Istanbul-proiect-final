@@ -135,11 +135,12 @@ button:hover {
   .card-content ol {
     text-align: left;
     padding-left: 20px;
+    margin: 0;
   }
 
   form {
     width: 90%;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 20px;
     box-sizing: border-box;
   }
@@ -147,40 +148,24 @@ button:hover {
   form input,
   form select,
   form button {
-    width: 95%;
-    margin: 8px auto 0 auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: block;
     box-sizing: border-box;
   }
 
-  a {
-    display: block;
-    text-align: center;
-    margin: 10px auto;
+  label {
+    margin-left: 10%;
   }
-}
 
-
-  form input,
-  form select,
-  form button {
-    width: 95%;
-    margin: 8px auto 0 auto;
-    display: block;
-    box-sizing: border-box;
+  h2 {
+    text-align: center;
   }
 
   a {
     display: block;
     text-align: center;
-    margin: 10px auto;
-  }
-}
-
-  a {
-    display: block;
-    text-align: center;
-    left: 0;
     margin: 10px auto;
   }
 }
