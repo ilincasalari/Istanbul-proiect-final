@@ -141,20 +141,41 @@ button:hover {
     width: 90%;
     margin: 20px auto;
     padding: 20px;
+    box-sizing: border-box;
   }
 
-  input,
-  select {
-    width: calc(100% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
+  form input,
+  form select,
+  form button {
+    width: 95%;
+    margin: 8px auto 0 auto;
+    display: block;
+    box-sizing: border-box;
   }
 
-  button {
-    width: calc(100% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
+  a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
   }
+}
+
+
+  form input,
+  form select,
+  form button {
+    width: 95%;
+    margin: 8px auto 0 auto;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
 
   a {
     display: block;
