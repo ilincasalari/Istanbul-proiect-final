@@ -135,37 +135,31 @@ button:hover {
   .card-content ol {
     text-align: left;
     padding-left: 20px;
-    margin: 0;
   }
 
   form {
     width: 90%;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
-    box-sizing: border-box;
   }
 
-  form input,
-  form select,
-  form button {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    display: block;
-    box-sizing: border-box;
+  input,
+  select {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  label {
-    margin-left: 10%;
-  }
-
-  h2 {
-    text-align: center;
+  button {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   a {
     display: block;
     text-align: center;
+    left: 0;
     margin: 10px auto;
   }
 }
