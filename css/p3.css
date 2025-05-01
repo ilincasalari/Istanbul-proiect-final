@@ -107,26 +107,44 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin: 15px 0;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-content ol {
+    text-align: left;
+    padding-left: 20px;
+  }
+
   form {
-    width: 90% !important;
-    margin: 20px auto !important;
-    padding: 15px !important;
-    margin-top: 20px !important;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
   }
 
-  input, select, button {
-    font-size: 1em;
-  }
-
-  h2 {
-    font-size: 1.3em;
-  }
-
-  label {
-    margin-top: 10px;
-  }
-
-  input, select {
+  input,
+  select {
     width: calc(100% - 20px);
     margin-left: 10px;
     margin-right: 10px;
@@ -139,29 +157,9 @@ button:hover {
   }
 
   a {
-    left: 0;
     display: block;
     text-align: center;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 90%;
-    max-width: none;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .card img {
-    width: 100%;
-    height: auto;
-  }
-
-  .card-content {
-    padding: 15px;
+    left: 0;
+    margin: 10px auto;
   }
 }
