@@ -122,6 +122,22 @@ button:hover {
     font-size: 1.3em;
   }
 
+  label {
+    margin-top: 10px;
+  }
+
+  input, select {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  button {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   a {
     left: 0;
     display: block;
